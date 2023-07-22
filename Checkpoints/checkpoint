@@ -1,0 +1,2 @@
+model_checkpoint_path: "kolkataCheckpoint"
+all_model_checkpoint_paths: "kolkataCheckpoint"
