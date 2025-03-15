@@ -1,6 +1,8 @@
 # WeatherWise
 _By Prakamya Singh, Praneeth Suresh, Pratyush Bansal and Ninad Dixit_
 
+[![Watch the video](https://github.com/Praneeth-Suresh/ForecastingFastestCoderFirst/blob/main/Analysis/API_vs_AI_comparison.png)](https://github.com/Praneeth-Suresh/ForecastingFastestCoderFirst/blob/main/Analysis/WeatherWise%20demo.mp4)
+
 ## About our tool
 Our tool allows the user to provide the name of a city as a command-line argument, and outputs an interactive pop-up window where the user can look at the day's weather forecast for that city. The tool uses an API key to extract data from the World Weather API service.
 
@@ -55,4 +57,7 @@ We additionally combined the power of ChatGPT with Github Copilot when it came t
 ## Comparing the AI Model to the API
 Our team has added an additional feature to check the accuracy of the data by adding an AI model forecast, using huge amounts of historical data of 26 major cities in the world. This is seen as the right-hand panel in the forcast outputs for supported cities. The AI model learns on a time-series basis, and predicts output based on the most recent readings provided by us and has provided some very accurate results to the forecasted weather from the API. One limitation that we are currently working on is the increasing the training the data to include AI predictions on an hourly basis rather than every 3 hours.
 
-We built our AI model using Tensorflow and trained it using past data from the World Weather API (`train.py`). Here too Github Copilot proved a class of its own in helping us build the Keras Sequential model that lay behind the success of the AI model. During training the loss of the model was plotted to record how well our model was doing in terms of accuracy. The two graphs `loss_5_epochs.png` and `loss_50_epochs.png` show how the model started performing better as we progressed into the training process. There is an image placed for comparison between the API and AI results.
+We built our AI model using Tensorflow and trained it using past data from the World Weather API (`train.py`). Here too Github Copilot proved a class of its own in helping us build the Keras Sequential model that lay behind the success of the AI model. During training the loss of the model was plotted to record how well our model was doing in terms of accuracy. The following graphs show how the model started performing better as we progressed into the training process. 
+
+<img align="left" width="100" height="100" src="https://github.com/Praneeth-Suresh/ForecastingFastestCoderFirst/blob/main/Analysis/loss_50_epochs.png">
+<img align="right" width="100" height="100" src="https://github.com/Praneeth-Suresh/ForecastingFastestCoderFirst/blob/main/Analysis/loss_5_epochs.png">
