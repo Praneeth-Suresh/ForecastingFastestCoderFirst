@@ -59,5 +59,5 @@ Our team has added an additional feature to check the accuracy of the data by ad
 
 We built our AI model using Tensorflow and trained it using past data from the World Weather API (`train.py`). Here too Github Copilot proved a class of its own in helping us build the Keras Sequential model that lay behind the success of the AI model. During training the loss of the model was plotted to record how well our model was doing in terms of accuracy. The following graphs show how the model started performing better as we progressed into the training process. 
 
-<img align="left" width="50%" src="https://github.com/Praneeth-Suresh/ForecastingFastestCoderFirst/blob/main/Analysis/loss_50_epochs.png">
-<img align="right" width="50%" src="https://github.com/Praneeth-Suresh/ForecastingFastestCoderFirst/blob/main/Analysis/loss_5_epochs.png">
+<img align="left" width="49%" src="https://github.com/Praneeth-Suresh/ForecastingFastestCoderFirst/blob/main/Analysis/loss_50_epochs.png">
+<img align="right" width="49%" src="https://github.com/Praneeth-Suresh/ForecastingFastestCoderFirst/blob/main/Analysis/loss_5_epochs.png">
